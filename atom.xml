@@ -6,7 +6,7 @@
   <link href="http://georgel.icu/atom.xml" rel="self"/>
   
   <link href="http://georgel.icu/"/>
-  <updated>2022-03-02T09:08:09.328Z</updated>
+  <updated>2022-03-03T07:34:48.668Z</updated>
   <id>http://georgel.icu/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中国三大云网站产品体验报告</title>
+    <link href="http://georgel.icu/2022/03/03/%E4%B8%AD%E5%9B%BD%E4%B8%89%E5%A4%A7%E4%BA%91%E7%BD%91%E7%AB%99%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    <id>http://georgel.icu/2022/03/03/%E4%B8%AD%E5%9B%BD%E4%B8%89%E5%A4%A7%E4%BA%91%E7%BD%91%E7%AB%99%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/</id>
+    <published>2022-03-03T07:28:47.000Z</published>
+    <updated>2022-03-03T07:34:48.668Z</updated>
+    
+    <content type="html"><![CDATA[<div class="post-summary"> <p>在经历了10年的快速发展之后，中国的云计算市场已经初步成型。这十年间诞生了风格与侧重方面差异不小的“御三家”，分别是毫无争议的大哥阿里云，紧随其后的二弟腾讯云以及起步最晚但发展最为迅猛的三弟华为云。本次借着正式入职的机会想对这三大云计算的网站产品进行深度体验和对比分析，以输出一篇（或若干篇）体验报告，方便之后用户体验设计工作的开展。</p></div>  <span id="more"></span>  <style type="text/css">  .post-summary { display: none; }  </style>  <p>博主正在施工中…<br>精彩马上继续…</p>]]></content>
+    
+    
+    <summary type="html">&lt;div class=&quot;post-summary&quot;&gt; 
+
+&lt;p&gt;在经历了10年的快速发展之后，中国的云计算市场已经初步成型。这十年间诞生了风格与侧重方面差异不小的“御三家”，分别是毫无争议的大哥阿里云，紧随其后的二弟腾讯云以及起步最晚但发展最为迅猛的三弟华为云。本次借着正式入职的机会想对这三大云计算的网站产品进行深度体验和对比分析，以输出一篇（或若干篇）体验报告，方便之后用户体验设计工作的开展。&lt;/p&gt;
+&lt;/div&gt;</summary>
+    
+    
+    
+    <category term="产品" scheme="http://georgel.icu/categories/%E4%BA%A7%E5%93%81/"/>
+    
+    
+    <category term="cloud" scheme="http://georgel.icu/tags/cloud/"/>
+    
+    <category term="product" scheme="http://georgel.icu/tags/product/"/>
+    
+    <category term="thinking" scheme="http://georgel.icu/tags/thinking/"/>
+    
+  </entry>
   
   <entry>
     <title>昨日的世界</title>
@@ -64,9 +92,9 @@
     <category term="人生十年纪2012-2022" scheme="http://georgel.icu/categories/%E4%BA%BA%E7%94%9F%E5%8D%81%E5%B9%B4%E7%BA%AA2012-2022/"/>
     
     
-    <category term="life" scheme="http://georgel.icu/tags/life/"/>
-    
     <category term="thinking" scheme="http://georgel.icu/tags/thinking/"/>
+    
+    <category term="life" scheme="http://georgel.icu/tags/life/"/>
     
     <category term="summary" scheme="http://georgel.icu/tags/summary/"/>
     
@@ -189,9 +217,9 @@
     <category term="人生十年纪2012-2022" scheme="http://georgel.icu/categories/%E4%BA%BA%E7%94%9F%E5%8D%81%E5%B9%B4%E7%BA%AA2012-2022/"/>
     
     
-    <category term="life" scheme="http://georgel.icu/tags/life/"/>
-    
     <category term="thinking" scheme="http://georgel.icu/tags/thinking/"/>
+    
+    <category term="life" scheme="http://georgel.icu/tags/life/"/>
     
     <category term="summary" scheme="http://georgel.icu/tags/summary/"/>
     
@@ -360,11 +388,11 @@
     <category term="产品" scheme="http://georgel.icu/categories/%E4%BA%A7%E5%93%81/"/>
     
     
+    <category term="product" scheme="http://georgel.icu/tags/product/"/>
+    
     <category term="thinking" scheme="http://georgel.icu/tags/thinking/"/>
     
     <category term="facebook" scheme="http://georgel.icu/tags/facebook/"/>
-    
-    <category term="product" scheme="http://georgel.icu/tags/product/"/>
     
   </entry>
   
