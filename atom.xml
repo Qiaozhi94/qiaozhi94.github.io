@@ -38,13 +38,13 @@
     
     <category term="code" scheme="http://georgel.icu/tags/code/"/>
     
-    <category term="document" scheme="http://georgel.icu/tags/document/"/>
-    
     <category term="linux" scheme="http://georgel.icu/tags/linux/"/>
     
     <category term="windows" scheme="http://georgel.icu/tags/windows/"/>
     
     <category term="setting" scheme="http://georgel.icu/tags/setting/"/>
+    
+    <category term="document" scheme="http://georgel.icu/tags/document/"/>
     
   </entry>
   
