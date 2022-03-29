@@ -68,9 +68,9 @@
     
     <category term="summary" scheme="http://georgel.icu/tags/summary/"/>
     
-    <category term="record" scheme="http://georgel.icu/tags/record/"/>
-    
     <category term="books" scheme="http://georgel.icu/tags/books/"/>
+    
+    <category term="record" scheme="http://georgel.icu/tags/record/"/>
     
   </entry>
   
