@@ -38,11 +38,11 @@
     
     <category term="life" scheme="http://georgel.icu/tags/life/"/>
     
+    <category term="summary" scheme="http://georgel.icu/tags/summary/"/>
+    
     <category term="study" scheme="http://georgel.icu/tags/study/"/>
     
     <category term="Japan" scheme="http://georgel.icu/tags/Japan/"/>
-    
-    <category term="summary" scheme="http://georgel.icu/tags/summary/"/>
     
   </entry>
   
@@ -68,9 +68,9 @@
     
     <category term="summary" scheme="http://georgel.icu/tags/summary/"/>
     
-    <category term="record" scheme="http://georgel.icu/tags/record/"/>
-    
     <category term="books" scheme="http://georgel.icu/tags/books/"/>
+    
+    <category term="record" scheme="http://georgel.icu/tags/record/"/>
     
   </entry>
   
