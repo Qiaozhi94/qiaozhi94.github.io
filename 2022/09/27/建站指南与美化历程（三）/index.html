@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.7.6">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="http://georgel.icu/tags/python/"/>
+  
+  <link rel="canonical" href="http://georgel.icu/2022/09/27/建站指南与美化历程（三）/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,18 +33,28 @@
   <!-- feed -->
       <link rel="alternate" href="/atom.xml" title="Blog of Qiaozhi" type="application/atom+xml">
   <!-- 页面元数据 -->
-  <title>标签：python - Blog of Qiaozhi</title>
-  <meta name="keywords" content="null">
-  <meta desc name="description" content="blog - Qiaozhi LI - Blog of Qiaozhi">
+  <title>建站指南与美化历程（三） - Blog of Qiaozhi</title>
+  <meta name="keywords" content="code,website,github,hexo,volantis,leancloud,null">
+  <meta desc name="description" content="
+
+博主从 22 年年初开始陆续折腾建站的相关事情，包括 github pages 配置、hexo 安装与配置、主题安装与美化、git 配置和网址域名解析等众多步骤，本系列共计三篇，基本上记录了我在折腾过程中所进行的所有步骤和遇到的目前能想起来的各种坑和错误，以为记录。本篇为第三篇，记录了建站后期部署以及博主在美... - Qiaozhi LI - Blog of Qiaozhi">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="Blog of Qiaozhi">
-<meta property="og:url" content="http://georgel.icu/tags/python/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="建站指南与美化历程（三）">
+<meta property="og:url" content="http://georgel.icu/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%B8%89%EF%BC%89/index.html">
 <meta property="og:site_name" content="Blog of Qiaozhi">
-<meta property="og:description" content="blog">
+<meta property="og:description" content="博主从 22 年年初开始陆续折腾建站的相关事情，包括 github pages 配置、hexo 安装与配置、主题安装与美化、git 配置和网址域名解析等众多步骤，本系列共计三篇，基本上记录了我在折腾过程中所进行的所有步骤和遇到的目前能想起来的各种坑和错误，以为记录。本篇为第三篇，记录了建站后期部署以及博主在美化过程遇到的值得记录的一些坑和解决方法。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2022-09-27T14:13:48.000Z">
+<meta property="article:modified_time" content="2022-09-27T14:15:13.392Z">
 <meta property="article:author" content="Qiaozhi LI">
+<meta property="article:tag" content="code">
+<meta property="article:tag" content="website">
+<meta property="article:tag" content="github">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="volantis">
+<meta property="article:tag" content="leancloud">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2564,7 +2574,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper  dock' style="display: none;">
+      <div id="none" class='cover-wrapper post dock' style="display: none;">
         
   <div id="parallax-window"></div>
 
@@ -2640,25 +2650,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-
 <div id="l_main" class=''>
-  
-    
-      
-  <section class="post-list">
-    
-      
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://georgel.icu/2022/02/21/pip常用命令/">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="http://georgel.icu/2022/09/27/建站指南与美化历程（三）/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Blog of Qiaozhi">
   </span>
@@ -2667,76 +2661,247 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="blog">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2022/02/21/pip%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"  itemprop="url">
-        pip常用命令
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
     
-      <div class="post-summary"> 
-
-
-<p>在早先学习python的时候会出现几天不用就忘记pip命令的情况，所以就专门将pip的常用命令从网络上整理下来放在本地中，现在重新上传到个人博客上，以供随时查阅。</p>
+    
+      <h1 class="title" itemprop="name headline">
+        建站指南与美化历程（三）
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' target="_blank" href="https://github.com/Qiaozhi94" rel="nofollow noopener">
+    <img itemprop="image" src="https://qiaozhi94.oss-cn-beijing.aliyuncs.com/myblog/%E5%A4%B4%E5%83%8F2.png" class="lazyload" data-srcset="https://qiaozhi94.oss-cn-beijing.aliyuncs.com/myblog/%E5%A4%B4%E5%83%8F2.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">Qiaozhi LI</p>
+  </a>
 </div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/%E8%AE%B0%E5%BD%95/">记录</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/%E8%AE%B0%E5%BD%95/" itemprop="url"><span itemprop="name">记录</span></a>
+      </span>
     
   </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-          
-          <a class='avatar' target="_blank" rel="noopener" href='https://github.com/Qiaozhi94'><img src='https://qiaozhi94.oss-cn-beijing.aliyuncs.com/myblog/%E5%A4%B4%E5%83%8F2.png'></a>
-          <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="image" content="https://qiaozhi94.oss-cn-beijing.aliyuncs.com/myblog/%E5%A4%B4%E5%83%8F2.png">
-            <meta itemprop="name" content="Qiaozhi LI">
-            <meta itemprop="url" content="https://github.com/Qiaozhi94">
-          </span>
-        
-        <time itemprop="dateCreated datePublished" datetime="2022-02-21T00:21:22+08:00">2022-02-21</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%96%87%E6%A1%A3/">文档</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%96%87%E6%A1%A3/" itemprop="url"><span itemprop="name">文档</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2022/02/21/pip%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
 
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-09-27T22:13:48+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2022年9月27日</p>
+  </a>
 </div>
 
+          
+        
+          
+            
+  <div class="new-meta-item wordcount">
+    <a class='notlink'>
+      <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
+      <p>字数：1.1k 字</p>
+    </a>
+  </div>
+  <div class="new-meta-item readtime">
+    <a class='notlink'>
+      <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
+      <p>时长：4 分钟</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+        
+          
+            
+
+
+<div class="new-meta-item browse">
+  <a class='notlink'>
+    <p>
+      <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
+      
+      <span id="lc-pv" data-title="建站指南与美化历程（三）" data-path="/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%B8%89%EF%BC%89/">
+        <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span>
+      </span>
+      
+      <span>次浏览</span>
+    </p>
+  </a>
+</div>
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <div class="post-summary">
+
+<p>博主从 22 年年初开始陆续折腾建站的相关事情，包括 github pages 配置、hexo 安装与配置、主题安装与美化、git 配置和网址域名解析等众多步骤，本系列共计三篇，基本上记录了我在折腾过程中所进行的所有步骤和遇到的目前能想起来的各种坑和错误，以为记录。本篇为第三篇，记录了建站后期部署以及博主在美化过程遇到的值得记录的一些坑和解决方法。</p>
+</div>
+
+<span id="more"></span>
+
+<style type="text/css">  
+.post-summary { display: none; }  
+</style>
+
+<p>经过了前面《建站指南与美化历程（一）（二）》的两篇博客的介绍，现在你已经可以在本地运行初始化的 Hexo 主题的网页，同时在浏览器输入购买的域名也可以打开 Github pages 默认的主题网页，那么最后的一步便是将本地的网页源码部署到 Github 上并运行起来，之后就开始进行细致的主题美化踩坑的工作了。</p>
+<h2 id="Github-pages-部署"><a href="#Github-pages-部署" class="headerlink" title="Github pages 部署"></a>Github pages 部署</h2><p>在博客（一）中我们下载并安装了 Git 和 nodejs，现在我们需要进一步配置 git，Windows 系统在桌面右键点击 Git Bash Here 弹出终端对话框，MacOS 系统直接打开终端即可（这里强烈推荐第三方终端 iterm2，用过的都说好）。分别在终端中输入以下两个命令并回车：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;此处填写你注册时的用户名&quot;</span><br><span class="line">git config --global user.email &quot;此处填写你注册时的邮箱&quot;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">如为报错，即可进行下一步</span></span><br></pre></td></tr></table></figure>
+
+<p>从本地成功提交代码到 Github 上的前提肯定要本地端和远程 Github 端连接成功，此时需要用到 shh key 来解决本地与远程服务器的连接问题。首先，还是在终端先创建一个 ssh 密钥：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh  # 首先检查是否之前已创建过ssh密钥，如以创建则自动跳转到.ssh目录下</span><br><span class="line">sh-keygen -t rsa -C &quot;填写注册Github的邮箱&quot;  # 如果上一步检查没有创建，则输入命令进行创建</span><br></pre></td></tr></table></figure>
+
+<p>然后无需修改直接敲击 enter 三次，直到生成了两个文件 id_rsa 和 id_rsa.pub，Macos 系统存放在 users&#x2F;用户名下，可以直接通过终端 cd 命令进入，然后输入命令通过 vim 工具打开查看 ssh keys：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<p>此时进入 Github 首页，选中个人头像在下拉菜单中选择 Settings 进入设置页面，在 Access 中点击 SSH and GPG keys 进入页面，点击 New SSH keys，标题位置随便填写名称，建议填入 myblog 以此明确该 SSH keys 的用途。复制 id_rsa.pub 文件中这段以 ssh-rsa 开头，注册 Github 的邮箱结束的一串字母数字组合并粘贴到 Key 一栏下，点击 Add SSH key。</p>
+<p>接下来用 vscode 打开 myblog 文件夹下的<code>_config.yml</code>的 Hexo 配置文件，在代码末尾有 deploy 一栏，修改成如下代码所示：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+<p>最后一步进入博客文件夹内（例如 myblog）打开终端依次输入以下命令进行博客在 Github pages 上的部署：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo cl  # hexo clean 清除本地项目文件残留，确保没有问题产生</span><br><span class="line">hexo g  # hexo generate 重新生成本地项目的文件</span><br><span class="line">hexo d  # hexo deploy 将本地项目文件上传并部署在Github上</span><br></pre></td></tr></table></figure>
+
+<p>运行完毕后稍等片刻即可在浏览器搜索框中输入购买的域名进入初始化的主题网页了！</p>
+<h2 id="主题美化踩坑"><a href="#主题美化踩坑" class="headerlink" title="主题美化踩坑"></a>主题美化踩坑</h2><p>顺利的在购买的域名上呈现出初始化的相关主题网页之后，建站工作基本上也就告一段落了。接下来博主以以 Volantis 主题为例，将<code>/myblog/node_modules/hexo-theme-volantis</code>文件夹下的<code>_config.yml</code>配置文件改名为<code>_config.volantis.yml</code>并且复制一份到 myblog 文件根目录下。这样，根目录下就存在两个配置文件<code>_config.yml</code>和<code>_config.volantis.yml</code>，前者是 Hexo 的全局配置文件，主要用于网站整体的配置；后者是 Volantis 主题的配置文件，主要用于网站具体的细节美化配置。后续主要修改以上两个文件来达成网站持续美化的目标了。</p>
+<p>（未完待续）</p>
+
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
+      
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+        
+          <div class='copyright'>
+            <blockquote>
+              
+                
+                  <p><a href="http://georgel.icu/2022/09/27/建站指南与美化历程（三）/">http://georgel.icu/2022/09/27/建站指南与美化历程（三）/</a></p>
+                
+              
+                
+                  <p>copyright: CC BY-NC-SA 4.0</p>
+
+                
+              
+            </blockquote>
           </div>
         
       
-    
-  </section>
+      <!-- 打赏组件 -->
+      
+    </div>
+  
   
     
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-09-27T22:15:13+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2022年9月27日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/code/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>code</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/website/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>website</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/github/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>github</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/hexo/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>hexo</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/volantis/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>volantis</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/leancloud/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>leancloud</p></a></div>
+  <span hidden itemprop="keywords">code website github hexo volantis leancloud</span>
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%BA%8C%EF%BC%89/'>
+          <p class='title'>建站指南与美化历程（二）<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>
+
+博主从 22 年年初开始陆续折腾建站的相关事情，包括 github pages 配置、hexo 安装与配置、主题安装与美化、git 配置和网址域名解析等众多步骤，本系列共计三篇，基本上记录了...</p>
+        </a>
+      
+    </div>
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
   
 
 
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%B8%89%EF%BC%89/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-  
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2745,245 +2910,56 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://qiaozhi94.oss-cn-beijing.aliyuncs.com/myblog/%E5%A4%B4%E5%83%8F.png'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-          <h2>Qiaozhi LI</h2>
-        
-        
-          <p>UX Designer &amp; Product Manager</p>
-
-        
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/qiaozhi_li@126.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/Qiaozhi94"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-<section class="widget desktop mobile pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-clock black fa-fw" aria-hidden="true"></i><span class='name'>最近更新</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%B8%89%EF%BC%89/"><div class="item"><time>2022-09-27</time><span>记录</span></div><span>建站指南与美化历程（三）</span></a></li><li><a class="widget-last" href="/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%BA%8C%EF%BC%89/"><div class="item"><time>2022-09-27</time><span>记录</span></div><span>建站指南与美化历程（二）</span></a></li><li><a class="widget-last" href="/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89/"><div class="item"><time>2022-09-27</time><span>记录</span></div><span>建站指南与美化历程（一）</span></a></li><li><a class="widget-last" href="/2022/03/03/%E4%B8%AD%E5%9B%BD%E4%B8%89%E5%A4%A7%E4%BA%91%E7%BD%91%E7%AB%99%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/"><div class="item"><time>2022-03-03</time><span>产品</span></div><span>中国三大云网站产品体验报告</span></a></li><li><a class="widget-last" href="/2022/02/25/%E5%85%B6%E9%9B%B6%EF%BC%9A%E4%BA%BA%E7%94%9F%E5%8D%81%E5%B9%B4%E7%BA%AA2012-2022%E7%BC%98%E8%B5%B7/"><div class="item"><time>2022-03-02</time><span>人生十年纪2012-2022</span></div><span>其零：人生十年纪2012-2022缘起</span></a></li></ul>
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop pjax">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/%E4%BA%A7%E5%93%81/" href="/categories/%E4%BA%A7%E5%93%81/"
-            active-action="action-categoriesE4BAA7E59381"
-            ><div class='name'>产品</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E4%BA%BA%E7%94%9F%E5%8D%81%E5%B9%B4%E7%BA%AA2012-2022/" href="/categories/%E4%BA%BA%E7%94%9F%E5%8D%81%E5%B9%B4%E7%BA%AA2012-2022/"
-            active-action="action-categoriesE4BABAE7949FE58D81E5B9B4E7BAAA2012-2022"
-            ><div class='name'>人生十年纪2012-2022</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%85%B6%E4%BB%96/" href="/categories/%E5%85%B6%E4%BB%96/"
-            active-action="action-categoriesE585B6E4BB96"
-            ><div class='name'>其他</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%BB%BA%E7%AD%91/" href="/categories/%E5%BB%BA%E7%AD%91/"
-            active-action="action-categoriesE5BBBAE7AD91"
-            ><div class='name'>建筑</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%80%9D%E8%80%83/" href="/categories/%E6%80%9D%E8%80%83/"
-            active-action="action-categoriesE6809DE88083"
-            ><div class='name'>思考</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%96%87%E6%A1%A3/" href="/categories/%E6%96%87%E6%A1%A3/"
-            active-action="action-categoriesE69687E6A1A3"
-            ><div class='name'>文档</div><div class='badge'>(3)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E8%AE%B0%E5%BD%95/" href="/categories/%E8%AE%B0%E5%BD%95/"
-            active-action="action-categoriesE8AEB0E5BD95"
-            ><div class='name'>记录</div><div class='badge'>(5)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/MMT/" style="font-size: 14px; color: #999">MMT</a> <a href="/tags/architecture/" style="font-size: 14px; color: #999">architecture</a> <a href="/tags/buddhism/" style="font-size: 14px; color: #999">buddhism</a> <a href="/tags/cloud/" style="font-size: 14px; color: #999">cloud</a> <a href="/tags/code/" style="font-size: 24px; color: #555">code</a> <a href="/tags/conda/" style="font-size: 14px; color: #999">conda</a> <a href="/tags/document/" style="font-size: 14px; color: #999">document</a> <a href="/tags/economics/" style="font-size: 14px; color: #999">economics</a> <a href="/tags/education/" style="font-size: 14px; color: #999">education</a> <a href="/tags/facebook/" style="font-size: 14px; color: #999">facebook</a> <a href="/tags/github/" style="font-size: 20px; color: #707070">github</a> <a href="/tags/guide/" style="font-size: 14px; color: #999">guide</a> <a href="/tags/hexo/" style="font-size: 20px; color: #707070">hexo</a> <a href="/tags/history/" style="font-size: 14px; color: #999">history</a> <a href="/tags/leancloud/" style="font-size: 20px; color: #707070">leancloud</a> <a href="/tags/life/" style="font-size: 18px; color: #7e7e7e">life</a> <a href="/tags/markdown/" style="font-size: 14px; color: #999">markdown</a> <a href="/tags/note/" style="font-size: 14px; color: #999">note</a> <a href="/tags/obsidian/" style="font-size: 14px; color: #999">obsidian</a> <a href="/tags/occupation/" style="font-size: 14px; color: #999">occupation</a> <a href="/tags/pip/" style="font-size: 14px; color: #999">pip</a> <a href="/tags/politics/" style="font-size: 14px; color: #999">politics</a> <a href="/tags/product/" style="font-size: 16px; color: #8b8b8b">product</a> <a href="/tags/python/" style="font-size: 14px; color: #999">python</a> <a href="/tags/record/" style="font-size: 14px; color: #999">record</a> <a href="/tags/space/" style="font-size: 14px; color: #999">space</a> <a href="/tags/style/" style="font-size: 14px; color: #999">style</a> <a href="/tags/summary/" style="font-size: 16px; color: #8b8b8b">summary</a> <a href="/tags/thinking/" style="font-size: 22px; color: #636363">thinking</a> <a href="/tags/volantis/" style="font-size: 20px; color: #707070">volantis</a> <a href="/tags/website/" style="font-size: 20px; color: #707070">website</a> <a href="/tags/welcome/" style="font-size: 14px; color: #999">welcome</a> <a href="/tags/world/" style="font-size: 14px; color: #999">world</a>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-<section class="widget desktop pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <div class="webinfo">
-      
-        <div class="webinfo-item">
-          <div>文章数目：</div>
-          <div>16 篇</div>
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>已运行时间：</div>
-          <div id="webinfo-runtime-count"></div>
-        </div>
-      
-
-
-      
-        <div class="webinfo-item">
-          <div>本站总字数：</div>
-          <div>15.7k 字</div>
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>本站访客数：</div>
-          
-          <div><span id="lc-uv"><span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span></span> 人</div>
-          
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>本站总访问量：</div>
-          
-          <div><span id="lc-sv"><span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span></span> 次</div>
-          
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>最后活动时间：</div>
-          <div id="last-update-show">2022-09-27 日</div>
-        </div>
-      
-    </div>
-  </div>
-</section>
-
     
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Github-pages-%E9%83%A8%E7%BD%B2"><span class="toc-text">Github pages 部署</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E8%B8%A9%E5%9D%91"><span class="toc-text">主题美化踩坑</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -3003,13 +2979,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -4326,7 +4303,7 @@ volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Blog of Qiaozhi","url":"http://georgel.icu/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Qiaozhi LI","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://georgel.icu/","sameAs":["https://github.com/volantis-x"],"description":"blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://georgel.icu/","name":"Blog of Qiaozhi"}},{"@type":"ListItem","position":2,"item":{"@id":"http://georgel.icu/tags/python/","name":"python"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Blog of Qiaozhi","url":"http://georgel.icu/","keywords":null,"description":"blog","author":{"@type":"Person","name":"Qiaozhi LI","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://georgel.icu/","description":"blog"},"publisher":{"@type":"Organization","name":"Blog of Qiaozhi","url":"http://georgel.icu/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://georgel.icu?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"blog","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Qiaozhi LI","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://georgel.icu/"},"publisher":{"@type":"Organization","name":"Blog of Qiaozhi","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Blog of Qiaozhi","url":"http://georgel.icu/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Qiaozhi LI","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://georgel.icu/","sameAs":["https://github.com/volantis-x"],"description":"blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://georgel.icu/","name":"Blog of Qiaozhi"}},{"@type":"ListItem","position":2,"item":{"@id":"http://georgel.icu/categories/记录/","name":"记录"}},{"@type":"ListItem","position":3,"item":{"@id":"http://georgel.icu/2022/09/27/建站指南与美化历程（三）/","name":"建站指南与美化历程（三）"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Blog of Qiaozhi","url":"http://georgel.icu/","keywords":null,"description":"blog","author":{"@type":"Person","name":"Qiaozhi LI","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://georgel.icu/","description":"blog"},"publisher":{"@type":"Organization","name":"Blog of Qiaozhi","url":"http://georgel.icu/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://georgel.icu?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"建站指南与美化历程（三）","description":"\n\n博主从 22 年年初开始陆续折腾建站的相关事情，包括 github pages 配置、hexo 安装与配置、主题安装与美化、git 配置和网址域名解析等众多步骤，本系列共计三篇，基本上记录了我在折腾过程中所进行的所有步骤和遇到的目前能想起来的各种坑和错误，以为记录。本篇为第三篇，记录了建站后期部署以及博主在美化过程遇到的值得记录的一些坑和解决方法。\n","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://georgel.icu/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%B8%89%EF%BC%89/"},"author":{"@type":"Person","name":"Qiaozhi LI","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://georgel.icu/"},"publisher":{"@type":"Organization","name":"Blog of Qiaozhi","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://georgel.icu/2022/09/27/%E5%BB%BA%E7%AB%99%E6%8C%87%E5%8D%97%E4%B8%8E%E7%BE%8E%E5%8C%96%E5%8E%86%E7%A8%8B%EF%BC%88%E4%B8%89%EF%BC%89/","wordCount":178,"datePublished":"2022-09-27T14:13:48.000Z","dateModified":"2022-09-27T14:15:13.392Z","articleSection":"记录","keywords":"code,website,github,hexo,volantis,leancloud","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
